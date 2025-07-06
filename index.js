@@ -2,7 +2,7 @@ import axios from 'axios'
 import express from 'express'
 
 const app = express()
-
+const port = process.env.PORT || 3000
 app.get('/',async(req ,res)=>{
  const api = 'pt_62oy1a0vq0o6y7e4hqw7thv4bfmilgnr'
  const email = 'theovandepol@gmail.com'
